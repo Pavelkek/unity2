@@ -3,22 +3,9 @@ using TMPro;
 using System;
 using System.Text.RegularExpressions;
 
+// Задание 3
 public class ConvertScript : MonoBehaviour
 {
-    // Задание 2 - переменные на каждый чисельный тип данных
-    public sbyte sbyteValue;
-    public byte byteValue;
-    public short shortValue;
-    public ushort ushortValue;
-    public int intValue;
-    public uint uintValue;
-    public long longValue;
-    public ulong ulongValue;
-    public nint nintValue;
-    public nuint nuintValue;
-    public float floatValue;
-    public double doubleValue;
-    public decimal decimalValue;
     public GameObject ConvertByteToSbyteInputText;
     public GameObject ConvertByteToSbyteResultText;
     public GameObject ConvertIntToShortInputText;
@@ -27,11 +14,6 @@ public class ConvertScript : MonoBehaviour
     public GameObject ConvertIntToFloatResultText;
     public GameObject ConvertDoubleToFloatInputText;
     public GameObject ConvertDoubleToFloatResultText;
-
-    void logger<T>(T text)
-    {
-        Debug.Log(text);
-    }
 
     public void ConvertByteToSbyte()
     {

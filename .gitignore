@@ -3,6 +3,7 @@
 /obj
 /Temp
 /UserSettings
+/.vs
 .vsconfig
 Assembly-CSharp.csproj
 HW_C__PART_1.sln
